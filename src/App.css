@@ -1,0 +1,96 @@
+/* .background {
+    background-image: url("/src/assets/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  } */
+
+  .pulau {
+    background-image: url("src/assets/pulau1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+ .login{
+    background-image: url("src/assets/Login.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer li {
+  display: inline;
+  margin: 0 15px;
+}
+
+
+
+
+.dropdown-menu {
+  margin-top: 0.25rem;
+}
+
+/* Navbar Link */
+.navbar-link {
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.navbar-link:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+/* Navbar Dropdown */
+.navbar-dropdown {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none; /* Mencegah interaksi saat dropdown tertutup */
+}
+
+/* Saat Dropdown Terbuka */
+.navbar-link:hover .navbar-dropdown,
+.navbar-dropdown-open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto; /* Mengizinkan interaksi saat dropdown terbuka */
+}
+
+.clip-triangle {
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
