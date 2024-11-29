@@ -62,7 +62,7 @@ const JawaTengah = () => {
             <div className="flex flex-col items-center group md:flex sm:hidden lg:block">
               <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px] rounded-full overflow-hidden shadow-lg">
                 <img
-                  src="/src/assets/JawaTengah/Dieng Plateau.png"
+                  src="/src/assets/JawaTengah/DiengPlateau.png"
                   alt="Dieng Plateau"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />

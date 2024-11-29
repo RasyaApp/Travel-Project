@@ -42,7 +42,7 @@ const JawaTengah = () => {
             <div className="flex justify-center group ">
               <div className="relative flex items-center justify-center rounded-full overflow-hidden shadow-lg ">
                 <img
-                  src="/src/assets/Gallery/Gunung bromo.png"
+                  src="/src/assets/GunungBromo.png"
                   alt="Gunung Bromo"
                   className="w-[250px] sm:w-[300px] md:w-[400px] lg:w-[450px] h-[250px] sm:h-[300px] md:h-[400px] lg:h-[450px] object-cover rounded-full"
                 />
