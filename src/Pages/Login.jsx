@@ -35,13 +35,7 @@ export default function LoginForm() {
   <div className="absolute top-[-250px] left-[-250px] bg-blue-600 h-[500px] w-[500px] rounded-full animate-pulse"></div>
   <div className="absolute top-[15%] left-[90%] bg-[#93DFFF] h-[150px] w-[150px] rounded-full animate-bounce"></div>
   <div className="absolute bottom-[-300px] right-[-150px] bg-blue-500 h-[600px] w-[600px] rounded-full opacity-40 animate-pulse"></div>
-  <div className="absolute left-[80%] top-[70%] h-[300px] w-[300px]">
-    <img
-      src="/src/assets/Segitiga.png"
-      alt="Segitiga"
-      className="animate-spin-slow opacity-70"
-    />
-  </div>
+
 
   {/* Form Login */}
   <div className="bg-gray-800 p-6 md:p-8 rounded-xl shadow-lg w-full max-w-[360px] sm:max-w-[400px] md:max-w-[500px] flex flex-col items-center z-10">
